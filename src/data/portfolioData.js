@@ -141,65 +141,100 @@ const portfolioData = {
   //   }
   // ],
 
-  experience: [
+//   experience: [
+//   {
+//     company: "Northern Trust Bank",
+//     role: "IAM Engineer",
+//     location: "Chicago, IL",
+//     duration: "Jan 2025 - Present",
+//     achievements: [
+//       "Automated Azure AD, CyberArk, and ServiceNow provisioning, cutting onboarding time and removing orphaned accounts.",
+//       "Secured banking platforms via CyberArk session management, reducing audit exceptions and insider threat exposure.",
+//       "Enhanced Splunk and Sentinel detection with MITRE ATT&CK, cutting detection time and false positives.",
+//       "Built Cortex XSOAR phishing playbooks, blocking domains and resetting accounts, reducing analyst workload significantly.",
+// "Integrated Qualys and Tenable with ServiceNow, raising patch compliance and reducing remediation time drastically.",
+//   "Led SailPoint and Azure reviews, revoking 1,200 stale entitlements, reducing privilege creep by 40%.",
+//   "Enforced Azure Policy guardrails, standardizing least-privilege roles and preventing critical cloud misconfigurations.",
+//   "Correlated CrowdStrike with Splunk, enabling rapid breach isolation and halving repeat endpoint incidents.",
+
+// ]
+//   },
+//   {
+//     company: "TechCorp Security Solutions",
+//     role: "Senior Cybersecurity Engineer",
+//     location: "Tampa, FL",
+//     duration: "2022 - Present",
+//     achievements: [
+//       "Led implementation of zero-trust security architecture, reducing security incidents by 40%",
+//       "Architected and deployed enterprise-wide privileged access management solution using CyberArk",
+//       "Automated security incident response workflows using Phantom SOAR, decreasing response time by 60%",
+//       "Conducted advanced threat hunting operations using MITRE ATT&CK framework",
+//       "Mentored junior security analysts and led security awareness training programs"
+//     ]
+//   },
+//   {
+//     company: "CloudGuard Enterprises",
+//     role: "Cybersecurity Analyst",
+//     location: "Orlando, FL",
+//     duration: "2020 - 2022",
+//     achievements: [
+//       "Monitored and analyzed security events using Splunk and IBM QRadar SIEM platforms",
+//       "Implemented multi-factor authentication across 500+ user accounts using Okta",
+//       "Performed vulnerability assessments and penetration testing using Nessus and Metasploit",
+//       "Developed Python scripts for automated log analysis and threat detection",
+//       "Maintained compliance with NIST Cybersecurity Framework and ISO 27001 standards"
+//     ]
+//   },
+//   {
+//     company: "SecureNet Solutions",
+//     role: "IAM Specialist",
+//     location: "Tampa, FL",
+//     duration: "2019 - 2020",
+//     achievements: [
+//       "Designed and implemented role-based access control policies for cloud and on-premises systems",
+//       "Integrated Azure AD with multiple SaaS applications for single sign-on capabilities",
+//       "Conducted access certification campaigns and remediated privileged access violations",
+//       "Collaborated with development teams to implement secure authentication mechanisms",
+//       "Reduced manual user provisioning processes by 80% through automation"
+//     ]
+//   }
+// ]
+// ,
+
+experience: [
   {
     company: "Northern Trust Bank",
     role: "IAM Engineer",
     location: "Chicago, IL",
     duration: "Jan 2025 - Present",
     achievements: [
-      "Automated Azure AD, CyberArk, and ServiceNow provisioning, cutting onboarding time and removing orphaned accounts.",
-      "Secured banking platforms via CyberArk session management, reducing audit exceptions and insider threat exposure.",
-      "Enhanced Splunk and Sentinel detection with MITRE ATT&CK, cutting detection time and false positives.",
-      "Built Cortex XSOAR phishing playbooks, blocking domains and resetting accounts, reducing analyst workload significantly.",
-"Integrated Qualys and Tenable with ServiceNow, raising patch compliance and reducing remediation time drastically.",
-  "Led SailPoint and Azure reviews, revoking 1,200 stale entitlements, reducing privilege creep by 40%.",
-  "Enforced Azure Policy guardrails, standardizing least-privilege roles and preventing critical cloud misconfigurations.",
-  "Correlated CrowdStrike with Splunk, enabling rapid breach isolation and halving repeat endpoint incidents.",
-
-]
-  },
-  {
-    company: "TechCorp Security Solutions",
-    role: "Senior Cybersecurity Engineer",
-    location: "Tampa, FL",
-    duration: "2022 - Present",
-    achievements: [
-      "Led implementation of zero-trust security architecture, reducing security incidents by 40%",
-      "Architected and deployed enterprise-wide privileged access management solution using CyberArk",
-      "Automated security incident response workflows using Phantom SOAR, decreasing response time by 60%",
-      "Conducted advanced threat hunting operations using MITRE ATT&CK framework",
-      "Mentored junior security analysts and led security awareness training programs"
+      "Streamlined access provisioning by engineering automated workflows in Azure AD, CyberArk, and ServiceNow, cutting onboarding time from two days to under eight hours and eliminating thousands of orphaned accounts.",
+      "Secured critical banking platforms by deploying CyberArk privileged session management with credential rotation and recording, which reduced audit exceptions by 80% and significantly lowered insider threat exposure.",
+      "Developed and fine-tuned detection logic in Splunk ES and Azure Sentinel, aligning with MITRE ATT&CK to improve threat visibility; this brought down mean-time-to-detect by 75% and reduced false positives by nearly a third.",
+      "Built automated response playbooks in Cortex XSOAR that handled phishing alerts end-to-end, blocking malicious domains and resetting compromised accounts, ultimately reducing analyst workload by 70%.",
+      "Elevated patching effectiveness by integrating Qualys and Tenable scan data with ServiceNow, driving patch compliance on critical vulnerabilities to 92% and cutting remediation windows from seven weeks to under two.",
+      "Coordinated quarterly access reviews through SailPoint IdentityNow and Azure entitlement campaigns, revoking more than 1,200 stale entitlements and shrinking privilege creep incidents by 40% across core systems.",
+      "Reduced cloud security risks by enforcing Azure Security Center and Policy-based guardrails, standardizing least-privilege roles and preventing misconfigurations that had previously exposed sensitive workloads.",
+      "Contained endpoint breaches by leveraging CrowdStrike Falcon telemetry with Splunk correlation, enabling rapid isolation within two hours and lowering repeat incident occurrences by half."
     ]
   },
   {
-    company: "CloudGuard Enterprises",
-    role: "Cybersecurity Analyst",
-    location: "Orlando, FL",
-    duration: "2020 - 2022",
+    company: "Defmax Technologies Pvt Ltd",
+    role: "CyberSecurity Engineer",
+    location: "Hyderabad, India",
+    duration: "Jul 2019 – Jul 2023",
     achievements: [
-      "Monitored and analyzed security events using Splunk and IBM QRadar SIEM platforms",
-      "Implemented multi-factor authentication across 500+ user accounts using Okta",
-      "Performed vulnerability assessments and penetration testing using Nessus and Metasploit",
-      "Developed Python scripts for automated log analysis and threat detection",
-      "Maintained compliance with NIST Cybersecurity Framework and ISO 27001 standards"
-    ]
-  },
-  {
-    company: "SecureNet Solutions",
-    role: "IAM Specialist",
-    location: "Tampa, FL",
-    duration: "2019 - 2020",
-    achievements: [
-      "Designed and implemented role-based access control policies for cloud and on-premises systems",
-      "Integrated Azure AD with multiple SaaS applications for single sign-on capabilities",
-      "Conducted access certification campaigns and remediated privileged access violations",
-      "Collaborated with development teams to implement secure authentication mechanisms",
-      "Reduced manual user provisioning processes by 80% through automation"
+      "Designed and enforced identity and access management policies across AWS, Azure, and Okta, implementing least privilege and multi-factor authentication, which reduced unauthorized access incidents by 25%.",
+      "Conducted regular user access reviews and access certification campaigns, identifying orphaned accounts and privilege creep, resulting in a 30% improvement in compliance with internal security policies.",
+      "Monitored authentication logs and cloud IAM activity using Splunk and Azure Sentinel to detect suspicious logins, enabling timely mitigation and reducing security incident exposure by 20%.",
+      "Automated IAM workflows with Python and PowerShell scripts for onboarding, offboarding, and role changes, reducing manual errors and accelerating access provisioning by 40%.",
+      "Collaborated with SOC analysts to integrate IAM alerts into SIEM and SOAR platforms like Demisto and Phantom, streamlining incident response and improving response efficiency by 35%.",
+      "Conducted risk assessments on privileged accounts and configured Privileged Access Management (PAM) solutions such as CyberArk, mitigating insider threats and ensuring policy enforcement across critical systems.",
+      "Developed and executed IAM training sessions for employees and junior security engineers, enhancing awareness and reducing misconfigurations or risky access practices by 20%.",
+      "Implemented role-based access control (RBAC) and segregation of duties (SoD) across enterprise systems, aligning with NIST, ISO 27001, and GDPR standards, strengthening overall identity governance."
     ]
   }
-]
-,
+],
 
   projects: [
     {
