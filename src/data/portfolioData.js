@@ -8,7 +8,7 @@ const portfolioData = {
     location: "Tampa, FL",
     phone: "+1(813)760-3213",
     email: "ravitejaalli55@gmail.com",
-    linkedIn: "https://www.linkedin.com/in/raviteja-alli",
+    linkedIn: "https://www.linkedin.com/in/ravi-alli-26a508385/",
     profileImage: "/image.jpeg",
     resume: "/RESUME_RAVI_TEJA_ALLI.pdf"
   },
