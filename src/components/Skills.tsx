@@ -19,38 +19,38 @@ const Skills: React.FC = () => {
 
   const skillCategories = [
     {
-      title: 'Identity & Access Management',
-      skills: portfolioData.skills.identityAccessManagement,
+      title: 'Generative AI & LLMs',
+      skills: portfolioData.skills.generativeAiLlms,
       color: 'cyber-teal',
       bgColor: 'bg-cyber-teal/10'
     },
     {
-      title: 'Security & SOC Tools',
-      skills: portfolioData.skills.securitySocTools,
+      title: 'Machine Learning & Deep Learning',
+      skills: portfolioData.skills.machineLearningDeepLearning,
       color: 'cyber-green',
       bgColor: 'bg-cyber-green/10'
     },
     {
-      title: 'Threat Intel & Vulnerability Management',
-      skills: portfolioData.skills.threatIntelVulnMgmt,
+      title: 'MLOps & Deployment',
+      skills: portfolioData.skills.mlOpsDeployment,
       color: 'cyber-amber',
       bgColor: 'bg-cyber-amber/10'
     },
     {
-      title: 'Cloud Security & IAM Integration',
-      skills: portfolioData.skills.cloudSecurityIamIntegration,
+      title: 'Natural Language Processing',
+      skills: portfolioData.skills.naturalLanguageProcessing,
       color: 'cyber-teal',
       bgColor: 'bg-cyber-teal/10'
     },
     {
-      title: 'Incident Response & Automation',
-      skills: portfolioData.skills.incidentResponseAutomation,
+      title: 'Data Engineering & Big Data',
+      skills: portfolioData.skills.dataEngineeringBigData,
       color: 'cyber-green',
       bgColor: 'bg-cyber-green/10'
     },
     {
-      title: 'Network & System Security',
-      skills: portfolioData.skills.networkSystemSecurity,
+      title: 'Cloud & AI Platforms',
+      skills: portfolioData.skills.cloudAiPlatforms,
       color: 'cyber-amber',
       bgColor: 'bg-cyber-amber/10'
     }
@@ -160,7 +160,7 @@ const Skills: React.FC = () => {
             </h2>
             <div className="w-24 h-1 bg-gradient-cyber mx-auto mb-8"></div>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Comprehensive expertise across cybersecurity domains, tools, and technologies
+              Advanced expertise across Generative AI, Machine Learning, Data Engineering, and MLOps domains
             </p>
           </motion.div>
 
@@ -174,10 +174,10 @@ const Skills: React.FC = () => {
               Core <span className="text-gradient">Proficiencies</span>
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
-              <RadialProgress percentage={95} skill="IAM & Zero Trust" color="cyber-teal" delay={0} />
-              <RadialProgress percentage={90} skill="SIEM & SOC" color="cyber-green" delay={200} />
-              <RadialProgress percentage={88} skill="Cloud Security" color="cyber-amber" delay={400} />
-              <RadialProgress percentage={85} skill="Incident Response" color="cyber-teal" delay={600} />
+              <RadialProgress percentage={95} skill="Generative AI & LLMs" color="cyber-teal" delay={0} />
+              <RadialProgress percentage={92} skill="Machine Learning" color="cyber-green" delay={200} />
+              <RadialProgress percentage={90} skill="NLP & Semantic Search" color="cyber-amber" delay={400} />
+              <RadialProgress percentage={88} skill="MLOps & Data Pipelines" color="cyber-teal" delay={600} />
             </div>
           </motion.div>
 
@@ -232,12 +232,12 @@ const Skills: React.FC = () => {
             className="mt-12"
           >
             <h3 className="text-xl font-semibold text-center mb-8">
-              Operating Systems & <span className="text-gradient">Scripting</span>
+              Programming & <span className="text-gradient">Data Frameworks</span>
             </h3>
             <div className="max-w-4xl mx-auto">
               <div className="card-glow p-6">
                 <div className="flex flex-wrap gap-3 justify-center">
-                  {portfolioData.skills.operatingSystemsScripting.map((skill, index) => (
+                  {portfolioData.skills.programmingDataProcessing.map((skill, index) => (
                     <motion.span
                       key={skill}
                       className="px-4 py-2 bg-gradient-cyber text-white rounded-lg font-medium hover:shadow-glow transition-shadow cursor-default"

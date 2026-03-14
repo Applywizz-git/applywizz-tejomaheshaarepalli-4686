@@ -45,7 +45,7 @@ const Education: React.FC = () => {
             </h2>
             <div className="w-24 h-1 bg-gradient-cyber mx-auto mb-8"></div>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Academic foundation and industry certifications that drive cybersecurity excellence
+              Academic foundation and industry certifications that drive AI / Machine Learning excellence
             </p>
           </motion.div>
 
@@ -172,9 +172,9 @@ const Education: React.FC = () => {
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-8">
                 My commitment to continuous learning ensures I stay current with evolving 
-                cybersecurity threats, technologies, and best practices. These certifications 
-                represent not just achievements, but ongoing dedication to excellence in 
-                protecting digital assets.
+                AI technologies, architectures, and best practices. These certifications 
+                represent my dedication to excellence in building intelligent and 
+                data-driven solutions.
               </p>
               
               <div className="grid md:grid-cols-3 gap-8">
@@ -183,21 +183,21 @@ const Education: React.FC = () => {
                     <GraduationCap className="w-8 h-8 text-cyber-teal" />
                   </div>
                   <div className="text-2xl font-bold text-gradient mb-2">Master's</div>
-                  <div className="text-sm text-muted-foreground">Advanced Cybersecurity</div>
+                  <div className="text-sm text-muted-foreground">Computer Science</div>
                 </div>
                 <div className="text-center">
                   <div className="w-16 h-16 bg-cyber-green/20 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Award className="w-8 h-8 text-cyber-green" />
                   </div>
-                  <div className="text-2xl font-bold text-gradient mb-2">4</div>
-                  <div className="text-sm text-muted-foreground">Industry Certifications</div>
+                  <div className="text-2xl font-bold text-gradient mb-2">6</div>
+                  <div className="text-sm text-muted-foreground">Professional Certifications</div>
                 </div>
                 <div className="text-center">
                   <div className="w-16 h-16 bg-cyber-amber/20 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Calendar className="w-8 h-8 text-cyber-amber" />
                   </div>
-                  <div className="text-2xl font-bold text-gradient mb-2">2025</div>
-                  <div className="text-sm text-muted-foreground">Latest Certification</div>
+                  <div className="text-2xl font-bold text-gradient mb-2">2024</div>
+                  <div className="text-sm text-muted-foreground">Year Certified</div>
                 </div>
               </div>
             </div>

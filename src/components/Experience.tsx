@@ -45,7 +45,7 @@ const Experience: React.FC = () => {
             </h2>
             <div className="w-24 h-1 bg-gradient-cyber mx-auto mb-8"></div>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              A journey of growth and expertise in cybersecurity engineering
+              A journey of innovation and technical excellence in AI / Machine Learning engineering
             </p>
           </motion.div>
 
@@ -138,18 +138,18 @@ const Experience: React.FC = () => {
                 Career <span className="text-gradient">Progression</span>
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                From IAM Specialist to Senior Cybersecurity Engineer, I've consistently delivered 
-                innovative security solutions that protect enterprise environments. My journey reflects 
-                a commitment to staying ahead of evolving threats while building scalable, 
-                compliance-focused security architectures.
+                From Data Scientist to AI / ML Engineer, I've consistently delivered 
+                intelligent solutions that solve complex problems in financial and healthcare sectors. 
+                My journey reflects a commitment to building scalable, 
+                high-performance machine learning systems and Generative AI applications.
               </p>
               <div className="flex justify-center mt-6 space-x-8">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-gradient">4+</div>
+                  <div className="text-2xl font-bold text-gradient">2+</div>
                   <div className="text-sm text-muted-foreground">Years Growth</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-gradient">4</div>
+                  <div className="text-2xl font-bold text-gradient">3</div>
                   <div className="text-sm text-muted-foreground">Companies</div>
                 </div>
                 <div className="text-center">

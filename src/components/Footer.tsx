@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Heart, Shield, ChevronUp } from 'lucide-react';
+import { Heart, Brain, ChevronUp, Github } from 'lucide-react';
 import portfolioData from '../data/portfolioData';
 
 const Footer: React.FC = () => {
@@ -51,18 +51,18 @@ const Footer: React.FC = () => {
             transition={{ delay: 0.3 }}
           >
             <div className="flex items-center space-x-2 mb-4">
-              <Shield className="h-8 w-8 text-cyber-teal" />
+              <Brain className="h-8 w-8 text-cyber-teal" />
               <span className="text-2xl font-bold text-gradient">
-                RAVITEJA ALLI
+                TEJO MAHESH AAREPALLI
               </span>
             </div>
             <p className="text-muted-foreground mb-4 leading-relaxed">
-              Cybersecurity Engineer dedicated to protecting digital assets 
-              through innovative security solutions and industry best practices.
+              AI / Machine Learning Engineer dedicated to building intelligent solutions 
+              across healthcare and financial domains.
             </p>
             <div className="flex items-center text-sm text-muted-foreground">
-              <Shield className="w-4 h-4 mr-2 text-cyber-teal" />
-              <span>Securing the digital future, one system at a time.</span>
+              <Brain className="w-4 h-4 mr-2 text-cyber-teal" />
+              <span>Innovating the future with AI and Data Science.</span>
             </div>
           </motion.div>
 
@@ -123,13 +123,13 @@ const Footer: React.FC = () => {
                 {portfolioData.contact.location}
               </motion.p>
               <motion.a
-                href={portfolioData.contact.linkedIn}
+                href={portfolioData.contact.github}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block text-muted-foreground hover:text-cyber-teal transition-colors"
                 whileHover={{ x: 5 }}
               >
-                LinkedIn Profile →
+                GitHub Profile →
               </motion.a>
             </div>
           </motion.div>
@@ -150,7 +150,7 @@ const Footer: React.FC = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.7 }}
             >
-              © {currentYear} Raviteja Alli. All rights reserved.
+              © {currentYear} Tejo Mahesh Aarepalli. All rights reserved.
             </motion.p>
 
             {/* Made with Love */}
@@ -188,9 +188,9 @@ const Footer: React.FC = () => {
           transition={{ delay: 0.9 }}
         >
           <p className="text-xs text-muted-foreground">
-            <Shield className="w-3 h-3 inline mr-1 text-cyber-teal" />
-            This website follows security best practices and is regularly updated 
-            to maintain the highest standards of cybersecurity.
+            <Brain className="w-3 h-3 inline mr-1 text-cyber-teal" />
+            This portfolio showcases advanced AI/ML solutions and 
+            engineering best practices in the field of Data Science.
           </p>
         </motion.div>
       </div>

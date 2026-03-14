@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { Download, MessageCircle, ChevronDown } from 'lucide-react';
+import { Download, MessageCircle, ChevronDown, Brain, Cpu, Database } from 'lucide-react';
 import { Button } from './ui/button';
 import ThreeBackground from './ThreeBackground';
 import portfolioData from '../data/portfolioData';
@@ -94,7 +94,7 @@ const Hero: React.FC = () => {
               
               {/* Floating security icons */}
               <motion.div
-                className="absolute -top-4 -right-4 w-16 h-16 bg-cyber-teal rounded-full flex items-center justify-center text-white text-2xl font-bold shadow-glow"
+                className="absolute -top-4 -right-4 w-16 h-16 bg-cyber-teal rounded-full flex items-center justify-center text-white shadow-glow"
                 animate={{
                   y: [0, -10, 0],
                   rotate: [0, 10, 0]
@@ -105,7 +105,7 @@ const Hero: React.FC = () => {
                   ease: "easeInOut"
                 }}
               >
-                🛡️
+                <Brain className="w-8 h-8 text-white" />
               </motion.div>
               
               <motion.div
@@ -121,7 +121,7 @@ const Hero: React.FC = () => {
                   delay: 0.5
                 }}
               >
-                🔒
+                <Cpu className="w-6 h-6 text-white" />
               </motion.div>
             </div>
           </motion.div>
@@ -184,9 +184,9 @@ const Hero: React.FC = () => {
               variants={itemVariants}
               transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
             >
-              Protecting digital assets with 4+ years of expertise in Identity & Access Management, 
-              Cloud Security, and Advanced Threat Detection. Building secure, resilient systems 
-              for the modern enterprise.
+              Crafting state-of-the-art Generative AI, RAG systems, and end-to-end Machine Learning pipelines. 
+              Specializing in transforming complex datasets into actionable intelligence with 2+ years 
+              of expertise in Healthcare and Finance.
             </motion.p>
 
             {/* CTA Buttons */}

@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Shield, Award, Users, TrendingUp } from 'lucide-react';
+import { Brain, Award, Database, TrendingUp, Cpu, Network } from 'lucide-react';
 import portfolioData from '../data/portfolioData';
 
 const About: React.FC = () => {
@@ -12,28 +12,28 @@ const About: React.FC = () => {
 
   const stats = [
     {
-      icon: Shield,
-      value: '4+',
+      icon: Brain,
+      value: '2+',
       label: 'Years Experience',
-      description: 'In Cybersecurity'
+      description: 'In AI / ML'
     },
     {
       icon: Award,
       value: '6',
       label: 'Certifications',
-      description: 'Industry Leading'
+      description: 'Global Rankings'
     },
     {
-      icon: Users,
-      value: '500+',
-      label: 'Users Protected',
-      description: 'Enterprise Scale'
+      icon: Database,
+      value: '3M+',
+      label: 'Docs Processed',
+      description: 'Semantic Indexing'
     },
     {
       icon: TrendingUp,
-      value: '40%',
-      label: 'Security Improvement',
-      description: 'Incident Reduction'
+      value: '92%',
+      label: 'Model Accuracy',
+      description: 'Higher Precision'
     }
   ];
 
@@ -82,16 +82,16 @@ const About: React.FC = () => {
               transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
             >
               <h3 className="text-2xl font-semibold mb-6 text-cyber-teal">
-                Cybersecurity Professional
+                AI / Machine Learning Specialist
               </h3>
               <div className="prose prose-lg max-w-none">
                 <p className="text-muted-foreground leading-relaxed mb-6">
                   {portfolioData.summary}
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  My expertise spans across Identity & Access Management, Security Operations, 
-                  Cloud Security, and Incident Response. I'm passionate about building secure, 
-                  resilient systems that protect organizations from evolving cyber threats.
+                  My expertise spans across Generative AI, Retrieval-Augmented Generation (RAG), 
+                  Time-Series Forecasting, and NLP. I'm passionate about building intelligent, 
+                  scalable systems that solve complex problems in healthcare and finance.
                 </p>
               </div>
             </motion.div>
@@ -139,29 +139,29 @@ const About: React.FC = () => {
             <div className="grid md:grid-cols-3 gap-6">
               <div className="card-glow p-6 text-center">
                 <div className="w-16 h-16 bg-cyber-teal/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Shield className="w-8 h-8 text-cyber-teal" />
+                  <Brain className="w-8 h-8 text-cyber-teal" />
                 </div>
-                <h4 className="font-semibold mb-2">Identity & Access Management</h4>
+                <h4 className="font-semibold mb-2">Generative AI & LLMs</h4>
                 <p className="text-sm text-muted-foreground">
-                  Zero-trust architecture, privileged access management, and multi-factor authentication
+                  RAG systems, fine-tuning with LoRA/PEFT, and advanced prompt engineering
                 </p>
               </div>
               <div className="card-glow p-6 text-center">
                 <div className="w-16 h-16 bg-cyber-green/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <TrendingUp className="w-8 h-8 text-cyber-green" />
+                  <Cpu className="w-8 h-8 text-cyber-green" />
                 </div>
-                <h4 className="font-semibold mb-2">Security Operations</h4>
+                <h4 className="font-semibold mb-2">Deep Learning & NLP</h4>
                 <p className="text-sm text-muted-foreground">
-                  SIEM monitoring, incident response, and automated threat detection
+                  Entity extraction, semantic search, and time-series forecasting with PyTorch
                 </p>
               </div>
               <div className="card-glow p-6 text-center">
                 <div className="w-16 h-16 bg-cyber-amber/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Award className="w-8 h-8 text-cyber-amber" />
+                  <Network className="w-8 h-8 text-cyber-amber" />
                 </div>
-                <h4 className="font-semibold mb-2">Cloud Security</h4>
+                <h4 className="font-semibold mb-2">MLOps & Deployment</h4>
                 <p className="text-sm text-muted-foreground">
-                  Multi-cloud security, compliance frameworks, and vulnerability management
+                  Scalable ML services using Docker, FastAPI, MLflow, and cloud platforms
                 </p>
               </div>
             </div>

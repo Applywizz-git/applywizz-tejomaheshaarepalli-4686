@@ -204,7 +204,7 @@
 
 import React, { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Sun, Moon, Shield } from "lucide-react";
+import { Menu, X, Sun, Moon, Shield, Brain } from "lucide-react";
 import { useTheme } from "../contexts/ThemeContext";
 
 const HEADER_HEIGHT = 64; // h-16 = 64px
@@ -266,8 +266,8 @@ const Header: React.FC = () => {
               whileTap={{ scale: 0.95 }}
               aria-label="Go to Home"
             >
-              <Shield className="h-8 w-8 text-cyber-teal" />
-              <span className="text-xl font-bold text-gradient">RAVITEJA</span>
+              <Brain className="h-8 w-8 text-cyber-teal" />
+              <span className="text-xl font-bold text-gradient">TEJO MAHESH</span>
             </motion.button>
 
             {/* Desktop Navigation */}

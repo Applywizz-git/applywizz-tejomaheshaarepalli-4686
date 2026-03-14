@@ -46,8 +46,8 @@ const Projects: React.FC = () => {
             </h2>
             <div className="w-24 h-1 bg-gradient-cyber mx-auto mb-8"></div>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Comprehensive cybersecurity solutions that have protected organizations 
-              and enhanced their security posture
+              Innovative AI and Machine Learning solutions that transform complex 
+              data into intelligent insights and automated systems
             </p>
           </motion.div>
 
@@ -171,8 +171,8 @@ const Projects: React.FC = () => {
                 Interested in <span className="text-gradient">Collaboration?</span>
               </h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                I'm always open to discussing new cybersecurity challenges and 
-                opportunities to build secure, innovative solutions.
+                I'm always open to discussing new AI/ML challenges and 
+                opportunities to build intelligent, innovative solutions.
               </p>
               <Button
                 className="btn-hero"

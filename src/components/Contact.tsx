@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Mail, Phone, MapPin, Linkedin, Copy, Send, CheckCircle } from 'lucide-react';
+import { Mail, Phone, MapPin, Github, Copy, Send, CheckCircle } from 'lucide-react';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
@@ -112,11 +112,11 @@ const Contact: React.FC = () => {
       href: '#'
     },
     {
-      icon: Linkedin,
-      label: 'LinkedIn',
-      value: 'Connect with me',
-      action: () => window.open(portfolioData.contact.linkedIn, '_blank'),
-      href: portfolioData.contact.linkedIn
+      icon: Github,
+      label: 'GitHub',
+      value: 'Check my repositories',
+      action: () => window.open(portfolioData.contact.github, '_blank'),
+      href: portfolioData.contact.github
     }
   ];
 
@@ -139,8 +139,8 @@ const Contact: React.FC = () => {
             </h2>
             <div className="w-24 h-1 bg-gradient-cyber mx-auto mb-8"></div>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Ready to enhance your organization's security posture? Let's discuss 
-              how we can work together to build robust cybersecurity solutions.
+              Ready to innovate with AI and Machine Learning? Let's discuss 
+              how we can build intelligent solutions that transform your data.
             </p>
           </motion.div>
 
@@ -154,8 +154,8 @@ const Contact: React.FC = () => {
                 Let's <span className="text-gradient">Connect</span>
               </h3>
               <p className="text-muted-foreground mb-8 leading-relaxed">
-                I'm always interested in discussing cybersecurity challenges, 
-                innovative security solutions, and potential collaboration opportunities. 
+                I'm always interested in discussing AI/ML challenges, 
+                Generative AI innovations, and potential collaboration opportunities. 
                 Feel free to reach out through any of the channels below.
               </p>
 
@@ -198,10 +198,10 @@ const Contact: React.FC = () => {
                 transition={{ delay: 0.8, duration: 0.5 }}
               >
                 <h4 className="font-semibold mb-2 text-gradient">
-                  Ready to Secure Your Future?
+                  Ready to Build the Future?
                 </h4>
                 <p className="text-sm text-muted-foreground mb-4">
-                  Let's build robust security solutions that protect what matters most to your organization.
+                  Let's create intelligent systems that solve real-world problems.
                 </p>
                 <div className="flex space-x-4">
                   <Button
@@ -214,10 +214,10 @@ const Contact: React.FC = () => {
                   <Button
                     variant="outline"
                     className="btn-secondary"
-                    onClick={() => window.open(portfolioData.contact.linkedIn, '_blank')}
+                    onClick={() => window.open(portfolioData.contact.github, '_blank')}
                   >
-                    <Linkedin className="w-4 h-4 mr-2" />
-                    LinkedIn
+                    <Github className="w-4 h-4 mr-2" />
+                    GitHub
                   </Button>
                 </div>
               </motion.div>
@@ -292,7 +292,7 @@ const Contact: React.FC = () => {
                     required
                     rows={6}
                     className="w-full resize-none"
-                    placeholder="Tell me about your cybersecurity needs, project ideas, or any questions you have..."
+                    placeholder="Tell me about your AI/ML needs, project ideas, or any questions you have..."
                   />
                 </div>
 

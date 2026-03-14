@@ -113,7 +113,7 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ onLoadingComplete }) => {
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
         >
-          Initializing Security Systems... {progress}%
+          Initializing Intelligence Systems... {progress}%
         </motion.p>
 
         {/* Cybersecurity themed loading messages */}
@@ -125,22 +125,22 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ onLoadingComplete }) => {
         >
           {progress < 25 && (
             <p className="text-xs text-muted-foreground font-mono">
-              Loading identity access management...
+              Bootstrapping neural networks...
             </p>
           )}
           {progress >= 25 && progress < 50 && (
             <p className="text-xs text-muted-foreground font-mono">
-              Initializing threat detection systems...
+              Initializing RAG pipelines...
             </p>
           )}
           {progress >= 50 && progress < 75 && (
             <p className="text-xs text-muted-foreground font-mono">
-              Configuring security operations center...
+              Configuring MLOps workflows...
             </p>
           )}
           {progress >= 75 && progress < 100 && (
             <p className="text-xs text-muted-foreground font-mono">
-              Establishing secure connection...
+              Establishing semantic search...
             </p>
           )}
           {progress === 100 && (
