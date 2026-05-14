@@ -130,7 +130,7 @@ const portfolioData = {
     },
     {
       company: "Sahrudaya Healthcare",
-      role: "Data Scientist",
+      role: "Data Engineering",
       location: "Apr 2022 - Jan 2023",
       duration: "2022 - 2023",
       achievements: [
